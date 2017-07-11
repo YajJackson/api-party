@@ -21,7 +21,7 @@ class App extends Component {
             </li>
         </ul>
         <Switch>
-          <Route path="/github" render={() =><Github />}/>
+          <Route path="/github" component={Github}/>
           <Route render={() =>  <p>To get started, click of the links above</p>}/>
         </Switch>
       </div>
