@@ -8,7 +8,9 @@ class Github extends Component {
     }
 
     handleChange = (ev) => {
-        
+        this.setState({
+            username: ev.target.value
+        })
     }
 
     render() {
