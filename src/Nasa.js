@@ -21,7 +21,6 @@ class Nasa extends Component {
             <NavLink to='/nasa/spirit'>Spirit</NavLink>
           </li>
         </ul>
-
         <Route exact path={this.props.match.url} render={() => (
           <h2>No rover selected.</h2>
         )} />
